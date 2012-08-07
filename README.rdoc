@@ -1,2 +1,0 @@
-twitter-bootswatch-rails demo project
-
