@@ -1,10 +1,10 @@
-@import "bootswatch/base";
+@import "bootswatch-base";
 // bootswatch.less
 // http://bootswatch.com/
 
 // Bootswatch.less
 // Swatch: Spacelab
-// Version: 2.0.4
+// Version: 2.10.0
 // -----------------------------------------------------
 
 // NAVBAR
@@ -141,7 +141,7 @@ div.subnav {
 // -----------------------------------------------------
 
 .btn {
-	.buttonBackground(#F4F4F4, #ECECEC);
+  .buttonBackground(#F4F4F4, #ECECEC, @grayDark, 0 1px 1px rgba(255,255,255,.75));
 }
 
 .btn-primary {
@@ -149,7 +149,7 @@ div.subnav {
 }
 
 .btn-warning {
-  .buttonBackground(lighten(@yellow, 15%), @yellow);
+  .buttonBackground(lighten(@orange, 15%), @orange);
 }
 
 .btn-danger {
@@ -188,7 +188,7 @@ div.subnav {
 // -----------------------------------------------------
 
 .label-important, .badge-important { background-color: #BD2C00; }
-.label-warning, .badge-warning   { background-color: #E3E84D; }
+.label-warning, .badge-warning   { background-color: @orange; }
 .label-success, .badge-success   { background-color: #6CC644; }
 .label-info, .badge-info      { background-color: #4183C4; }
 

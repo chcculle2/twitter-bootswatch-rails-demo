@@ -12,6 +12,7 @@
 #= require twitter/bootstrap/bootstrap-scrollspy
 #= require twitter/bootstrap/bootstrap-tab
 #= require twitter/bootstrap/bootstrap-typeahead
+#= require twitter/bootstrap/bootstrap-affix
 
 
 #= require bootswatch/bootswatch
