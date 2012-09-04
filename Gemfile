@@ -17,4 +17,4 @@ end
 
 gem 'jquery-rails'
 
-gem 'twitter-bootswatch-rails', '~> 2.1.0.0'
+gem 'twitter-bootswatch-rails', '~> 2.1.0.2'

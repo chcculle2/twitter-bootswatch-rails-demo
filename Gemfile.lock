@@ -97,7 +97,7 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    twitter-bootswatch-rails (2.1.0.0)
+    twitter-bootswatch-rails (2.1.0.2)
       actionpack (>= 3.1)
       less-rails (~> 2.2.3)
       railties (>= 3.1)
@@ -117,5 +117,5 @@ DEPENDENCIES
   less-rails
   rails (= 3.2.7)
   therubyracer
-  twitter-bootswatch-rails (~> 2.1.0.0)
+  twitter-bootswatch-rails (~> 2.1.0.2)
   uglifier (>= 1.0.3)
