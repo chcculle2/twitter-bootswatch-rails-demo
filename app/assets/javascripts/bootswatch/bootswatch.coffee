@@ -1,11 +1,11 @@
 # bootswatch.coffee
 # http://coffeescriptcookbook.com/chapters/syntax/embedding_javascript
 
-
 jQuery ->
   $("a[rel=popover]").popover()
   $(".tooltip").tooltip({'placement': 'bottom'})
   $("a[rel=tooltip]").tooltip({'placement': 'bottom'})
+
 
 
 `

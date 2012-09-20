@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.8'
 
 
 # Gems used only for assets and not required
@@ -17,4 +17,4 @@ end
 
 gem 'jquery-rails'
 
-gem 'twitter-bootswatch-rails', '~> 2.1.0.2'
+gem 'twitter-bootswatch-rails', '~> 2.1.1.0'
