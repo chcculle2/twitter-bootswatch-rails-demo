@@ -1,6 +1,4 @@
 
-<%= bootswatch_breadcrumbs %>
-
 <!-- Masthead
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
@@ -391,6 +389,13 @@
              </label>
            </div>
          </div>
+         <div class="control-group info">
+           <label class="control-label" for="inputInfo">Input with info</label>
+           <div class="controls">
+             <input type="text" id="inputInfo">
+             <span class="help-inline">Think before you submit</span>
+           </div>
+         </div>
          <div class="control-group warning">
            <label class="control-label" for="inputWarning">Input with warning</label>
            <div class="controls">
@@ -448,9 +453,7 @@
    <div class="span5">
 
      <h3 id="breadcrumbs">Breadcrumbs</h3>
-     <ul class="breadcrumb">
-       <li class="active">Home</li>
-     </ul>
+     <%= render_breadcrumbs %>
      <ul class="breadcrumb">
        <li><a href="#">Home</a> <span class="divider">/</span></li>
        <li class="active">Library</li>
@@ -524,9 +527,11 @@
  <div class="row">
    <div class="span4">
      <div class="progress">
-       <div class="bar" style="width: 60%;"></div>
+     <div class="bar bar-success" style="width: 35%;"></div>
+     <div class="bar bar-warning" style="width: 20%;"></div>
+     <div class="bar bar-danger" style="width: 10%;"></div>
      </div>
-   </div>
+     </div>
    <div class="span4">
      <div class="progress progress-info progress-striped">
        <div class="bar" style="width: 20%;"></div>
