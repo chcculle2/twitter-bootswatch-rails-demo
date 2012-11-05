@@ -15,7 +15,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  gem 'twitter-bootswatch-rails', '~> 2.1.1.1'
+  gem 'twitter-bootswatch-rails', '>= 2.2'
 end
 
-gem 'twitter-bootswatch-rails-helpers', '~> 2.1.1.1'
+gem 'twitter-bootswatch-rails-helpers'
