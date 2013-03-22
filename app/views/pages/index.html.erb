@@ -554,18 +554,26 @@
 
  <div class="row">
   <div class="span12">
-    <%= bootswatch_flash_container(:default, %Q{<h4>Alert block</h4><p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>}.html_safe, true) %>
+    <%= bootswatch_flash_container(:default, true) do %>
+      <h4>Alert block</h4><p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+    <% end %>
   </div>
  </div>
  <div class="row">
    <div class="span4">
-     <%= bootswatch_flash_container(:error, '<strong>Error</strong> Change a few things up and try submitting again.'.html_safe) %>
+     <%= bootswatch_flash_container(:success) do %>
+       <strong>Success</strong> You successfully read this important alert message.
+     <% end %>
    </div>
    <div class="span4">
-     <%= bootswatch_flash_container(:success, '<strong>Success</strong> You successfully read this important alert message.'.html_safe) %>
+     <%= bootswatch_flash_container(:error) do %>
+       <strong>Error</strong> Change a few things up and try submitting again.
+     <% end %>
    </div>
    <div class="span4">
-     <%= bootswatch_flash_container(:info, "<strong>Information</strong> This alert needs your attention, but it's not super important.".html_safe) %>
+     <%= bootswatch_flash_container(:info) do %>
+       <strong>Information</strong> This alert needs your attention, but it's not super important.
+     <% end %>
     </div>
  </div>
 

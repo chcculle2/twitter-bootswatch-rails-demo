@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.13'
 
 gem 'jquery-rails'
 
@@ -15,7 +15,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  gem 'twitter-bootswatch-rails', '>= 2.2'
+  gem 'twitter-bootswatch-rails', '>= 2.3'
 end
 
 gem 'twitter-bootswatch-rails-helpers'
