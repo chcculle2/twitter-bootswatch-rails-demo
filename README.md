@@ -1,6 +1,12 @@
 #[twitter-bootswatch-rails](https://github.com/scottvrosenthal/twitter-bootswatch-rails) demo project
 
-This demo uses a theme from [Bootswatch](http://bootswatch.com/)
+This demo shows all free themes from [Bootswatch](http://bootswatch.com/)
+
+### Local development assets not updating?
+
+```sh
+RAILS_ENV=development rake assets:clean
+```
 
 ## Demo Screen Shot ##
 
