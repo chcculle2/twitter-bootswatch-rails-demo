@@ -1,5 +1,9 @@
 class PagesController < ApplicationController
 
+  def admin
+    render :index
+  end
+
   def amelia
     render :index
   end

@@ -14,8 +14,8 @@ TwitterBootswatchRailsDemo::Application.routes.draw do
   match 'superhero', to: 'pages#superhero'
   match 'united', to: 'pages#united'
 
+  match 'admin', to: 'pages#admin'
 
-
-  root :to => 'pages#amelia'
+  root to:  'pages#amelia'
 
 end
