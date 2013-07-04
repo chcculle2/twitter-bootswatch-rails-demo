@@ -11,5 +11,5 @@ This demo shows all free themes from [Bootswatch](http://bootswatch.com/)
 ### Local rails development assets not updating?
 
 ```sh
-rake assets:clean:all
+RAILS_ENV=development rake assets:clean:all
 ```
