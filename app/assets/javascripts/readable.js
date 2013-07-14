@@ -1,5 +1,6 @@
-// Readable 2.3.1
+// Readable
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require readable/loader
+//= require readable/bootswatch

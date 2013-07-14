@@ -1,6 +1,6 @@
-/* Cyborg 2.3.1
+/* Cyborg
  * Bootswatch
  *= require_self
  *= require cyborg/loader
- *= require font-awesome/font-awesome
+ *= require cyborg/bootswatch
 */

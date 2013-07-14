@@ -1,5 +1,6 @@
-// Slate 2.3.1
+// Slate
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require slate/loader
+//= require slate/bootswatch

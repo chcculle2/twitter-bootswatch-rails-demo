@@ -1,4 +1,4 @@
-# Amelia 2.3.1
+# Amelia
 # Bootswatch
 # loader.coffee
 
@@ -16,5 +16,3 @@
 #= require twitter/bootstrap/bootstrap-typeahead
 #= require twitter/bootstrap/bootstrap-affix
 
-
-#= require amelia/bootswatch

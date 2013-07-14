@@ -1,5 +1,6 @@
-// Cosmo 2.3.1
+// Cosmo
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require cosmo/loader
+//= require cosmo/bootswatch

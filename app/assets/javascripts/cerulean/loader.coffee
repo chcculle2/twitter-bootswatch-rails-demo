@@ -1,4 +1,4 @@
-# Cerulean 2.3.1
+# Cerulean
 # Bootswatch
 # loader.coffee
 
@@ -16,5 +16,3 @@
 #= require twitter/bootstrap/bootstrap-typeahead
 #= require twitter/bootstrap/bootstrap-affix
 
-
-#= require cerulean/bootswatch

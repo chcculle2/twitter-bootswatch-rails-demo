@@ -13,22 +13,22 @@
         <div class="nav-collapse">
           <ul class="nav pull-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bootswatch Themes <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><%= link_to 'Amelia', controller: 'pages', action: 'amelia' %></li>
-                <li><%= link_to 'Cerulean', controller: 'pages', action: 'cerulean' %></li>
-                <li><%= link_to 'Cosmo', controller: 'pages', action: 'cosmo' %></li>
-                <li><%= link_to 'Cyborg', controller: 'pages', action: 'cyborg' %></li>
-                <li><%= link_to 'Journal', controller: 'pages', action: 'journal' %></li>
-                <li><%= link_to 'Readable', controller: 'pages', action: 'readable' %></li>
-                <li><%= link_to 'Simplex', controller: 'pages', action: 'simplex' %></li>
-                <li><%= link_to 'Slate', controller: 'pages', action: 'slate' %></li>
-                <li><%= link_to 'Spacelab', controller: 'pages', action: 'spacelab' %></li>
-                <li><%= link_to 'Spruce', controller: 'pages', action: 'spruce' %></li>
-                <li><%= link_to 'Superhero', controller: 'pages', action: 'superhero' %></li>
-                <li><%= link_to 'United', controller: 'pages', action: 'united' %></li>
-                <li class="divider"></li>
-                <li><%= link_to 'Admin', controller: 'pages', action: 'admin' %></li>
+              <li><%= link_to 'Amelia', controller: 'pages', action: 'amelia' %></li>
+              <li><%= link_to 'Cerulean', controller: 'pages', action: 'cerulean' %></li>
+              <li><%= link_to 'Cosmo', controller: 'pages', action: 'cosmo' %></li>
+              <li><%= link_to 'Cyborg', controller: 'pages', action: 'cyborg' %></li>
+              <li><%= link_to 'Journal', controller: 'pages', action: 'journal' %></li>
+              <li><%= link_to 'Readable', controller: 'pages', action: 'readable' %></li>
+              <li><%= link_to 'Simplex', controller: 'pages', action: 'simplex' %></li>
+              <li><%= link_to 'Slate', controller: 'pages', action: 'slate' %></li>
+              <li><%= link_to 'Spacelab', controller: 'pages', action: 'spacelab' %></li>
+              <li><%= link_to 'Spruce', controller: 'pages', action: 'spruce' %></li>
+              <li><%= link_to 'Superhero', controller: 'pages', action: 'superhero' %></li>
+              <li><%= link_to 'United', controller: 'pages', action: 'united' %></li>
+              <li class="divider"></li>
+              <li><%= link_to 'Admin', controller: 'pages', action: 'admin' %></li>
               </ul>
             </li>
           </ul>
@@ -45,13 +45,15 @@
 <header class="jumbotron subhead" id="overview">
   <div class="row">
     <div class="span6">
-      <h1>Bootswatch Theme [<%= "#{action_name.capitalize}" %>]</h1>
+      <h1>Bootswatch Theme &ndash; [<%= "#{action_name.capitalize}" %>]</h1>
       <p class="lead">The twitter-bootswatch-rails demo!</p>
     </div>
     <div class="span6">
     </div>
   </div>
-  <div class="subnav">
+</header>
+
+<section id="subnav">
     <ul class="nav nav-pills">
       <li><a href="#typography">Typography</a></li>
       <li><a href="#navbar">Navbar</a></li>
@@ -60,11 +62,7 @@
       <li><a href="#tables">Tables</a></li>
       <li><a href="#miscellaneous">Miscellaneous</a></li>
     </ul>
-  </div>
-</header>
-
-
-
+</section>
 
 <!-- Typography
 ================================================== -->

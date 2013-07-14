@@ -1,4 +1,4 @@
-# Spruce 2.3.1
+# Spruce
 # Bootswatch
 # loader.coffee
 
@@ -16,5 +16,3 @@
 #= require twitter/bootstrap/bootstrap-typeahead
 #= require twitter/bootstrap/bootstrap-affix
 
-
-#= require spruce/bootswatch

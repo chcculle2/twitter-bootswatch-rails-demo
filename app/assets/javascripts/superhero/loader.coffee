@@ -1,4 +1,4 @@
-# Superhero 2.3.1
+# Superhero
 # Bootswatch
 # loader.coffee
 
@@ -16,5 +16,3 @@
 #= require twitter/bootstrap/bootstrap-typeahead
 #= require twitter/bootstrap/bootstrap-affix
 
-
-#= require superhero/bootswatch

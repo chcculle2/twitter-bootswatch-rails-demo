@@ -1,5 +1,6 @@
-// Simplex 2.3.1
+// Simplex
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require simplex/loader
+//= require simplex/bootswatch

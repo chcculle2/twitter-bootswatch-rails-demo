@@ -1,5 +1,6 @@
-// Superhero 2.3.1
+// Superhero
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require superhero/loader
+//= require superhero/bootswatch

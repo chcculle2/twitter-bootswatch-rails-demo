@@ -15,10 +15,11 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  gem 'twitter-bootswatch-rails', '~> 2.3.1.0'
+  gem 'twitter-bootswatch-rails', '~> 2.3.2'
+  gem 'twitter-bootswatch-rails-fontawesome'
 end
 
-gem 'twitter-bootswatch-rails-helpers', '>= 2.3.1'
+gem 'twitter-bootswatch-rails-helpers', '>= 2.3'
 
 # uncomment to gen with erb
 #gem 'haml-rails'

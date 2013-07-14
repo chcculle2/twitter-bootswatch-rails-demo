@@ -1,5 +1,6 @@
-// Spruce 2.3.1
+// Spruce
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require spruce/loader
+//= require spruce/bootswatch

@@ -1,5 +1,6 @@
-// Amelia 2.3.1
+// Amelia
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
 //= require amelia/loader
+//= require amelia/bootswatch
