@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  before_filter :theme_names
 
   def admin
     render :index
@@ -17,6 +18,10 @@ class PagesController < ApplicationController
   end
 
   def cyborg
+    render :index
+  end
+
+  def flatly
     render :index
   end
 
@@ -40,16 +45,15 @@ class PagesController < ApplicationController
     render :index
   end
 
-  def spruce
-    render :index
-  end
-
-  def superhero
-    render :index
-  end
-
   def united
     render :index
   end
+
+  private
+
+  def theme_names
+    @themes ||= %w[amelia cerulean cosmo cyborg flatly journal readable simplex slate spacelab united]
+  end
+
 
 end
