@@ -1,19 +1,11 @@
 TwitterBootswatchRailsDemo::Application.routes.draw do
 
+  THEME_NAMES.each do |theme|
 
-  match 'amelia', to: 'pages#amelia'
-  match 'cerulean', to: 'pages#cerulean'
-  match 'cosmo', to: 'pages#cosmo'
-  match 'cyborg', to: 'pages#cyborg'
-  match 'flatly', to: 'pages#flatly'
-  match 'journal', to: 'pages#journal'
-  match 'readable', to: 'pages#readable'
-  match 'simplex', to: 'pages#simplex'
-  match 'slate', to: 'pages#slate'
-  match 'spacelab', to: 'pages#spacelab'
-  match 'united', to: 'pages#united'
+    match "#{theme}", to: "pages##{theme}", via: :get
 
+  end
 
-  root to:  'pages#amelia'
+  root to: 'pages#amelia'
 
 end

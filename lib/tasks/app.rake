@@ -1,18 +1,16 @@
 desc 'Remove bootswatch themes'
-task :clear_themes do
+task :clear_themes => :environment do
   sh 'rm -rf app/assets/javascripts/*'
   sh 'rm -rf app/assets/stylesheets/*'
 end
 
 desc 'Create bootswatch themes'
-task :create_themes do
+task :create_themes => :environment do
 
-  themes = %w[amelia cerulean cosmo cyborg flatly journal readable simplex slate spacelab united]
+  THEME_NAMES.each do |theme|
 
-  themes.each do |theme|
-
-    sh "rails g bootswatch:install #{theme}"
-    sh "rails g bootswatch:import #{theme}"
+    sh "rails g bootswatch:install #{theme} --force"
+    sh "rails g bootswatch:import #{theme} --force"
 
   end
 

@@ -1,6 +1,6 @@
 @import "simplex/base";
 
-// Simplex 3.0.0
+// Simplex 3.0.2
 // Bootswatch
 // -----------------------------------------------------
 
@@ -8,6 +8,7 @@
 
 .btn-shadow(@color) {
 	#gradient > .vertical-three-colors(lighten(@color, 15%), @color, 6%, darken(@color, 4%));
+	filter: none;
 	border: 1px solid darken(@color, 10%);
 }
 
@@ -15,7 +16,7 @@
 
 .navbar {
 	border-bottom: 1px solid #dfdfdf;
-	font-family: @font-family-alt;
+	font-family: @headings-font-family;
 
 	&-nav > li > a {
 		padding-top: @navbar-padding-vertical + 2px;
@@ -30,7 +31,7 @@
 // Buttons ====================================================================
 
 .btn {
-	font-family: @font-family-alt;
+	font-family: @headings-font-family;
 }
 
 .btn-default,
@@ -64,12 +65,6 @@
 }
 
 // Typography =================================================================
-
-@font-family-alt: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: @font-family-alt;
-}
 
 // Tables =====================================================================
 
@@ -112,6 +107,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Navs =======================================================================
+
+.pagination {
+
+	.active > a,
+	.active > a:hover {
+		border-color: #ddd;
+	}
+}
 
 // Indicators =================================================================
 
