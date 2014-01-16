@@ -1,10 +1,10 @@
 @import "yeti/base";
 
-// Yeti 3.0.2
+// Yeti 3.0.3
 // Bootswatch
 // -----------------------------------------------------
 
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
 // Navbar =====================================================================
 
@@ -399,4 +399,12 @@ label,
 	color: #fff;
 	font-size: 12px;
 	font-weight: 300;
+}
+
+.panel {
+	&-heading,
+	&-footer {
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+	}
 }
