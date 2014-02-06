@@ -1,1 +1,1 @@
-THEME_NAMES = %w[amelia cerulean cosmo cyborg flatly journal readable simplex slate spacelab united yeti]
+THEME_NAMES = %w[amelia cerulean cosmo cupid cyborg flatly journal lumen readable simplex slate spacelab superhero united yeti]

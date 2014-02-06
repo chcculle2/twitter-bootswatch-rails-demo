@@ -12,7 +12,8 @@ gem 'therubyracer', :require => 'v8'
 
 gem 'uglifier'
 
-gem 'twitter-bootswatch-rails', '~> 3.0'
+gem 'twitter-bootswatch-rails', '~> 3.1'
+gem 'twitter-bootswatch-rails-helpers', '~> 3.1'
 gem 'twitter-bootswatch-rails-fontawesome'
 
 
