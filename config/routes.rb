@@ -6,6 +6,6 @@ TwitterBootswatchRailsDemo::Application.routes.draw do
 
   end
 
-  root to: 'pages#amelia'
+  root to: 'pages#default'
 
 end

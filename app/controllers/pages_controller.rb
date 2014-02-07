@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  def admin
+  def default
     render :index
   end
 
