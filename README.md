@@ -11,6 +11,7 @@ This demo shows all free themes from [Bootswatch](http://bootswatch.com/)
 ```sh
 rake clear_themes                       # Remove bootswatch themes
 rake create_themes                      # Create bootswatch themes
+rails g bootswatch:install default      # Demo App requires a default theme
 ```
 
 ## Misc
