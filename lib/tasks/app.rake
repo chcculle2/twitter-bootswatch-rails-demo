@@ -7,6 +7,8 @@ end
 desc 'Create bootswatch themes'
 task :create_themes => :environment do
 
+  sh "rails g bootswatch:install default --force"
+
   THEME_NAMES.each do |theme|
 
     sh "rails g bootswatch:install #{theme} --force"
