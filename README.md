@@ -14,10 +14,3 @@ rake create_themes                      # Create bootswatch themes
 rails g bootswatch:install default      # Demo App requires a default theme
 ```
 
-## Misc
-
-### Local rails development assets not updating?
-
-```sh
-RAILS_ENV=development rake assets:clean
-```

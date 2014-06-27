@@ -1,3 +1,3 @@
-// Cupid
+// Darkly
 // Bootswatch
 // bootswatch.js

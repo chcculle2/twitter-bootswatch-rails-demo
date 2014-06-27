@@ -1,6 +1,6 @@
 @import "slate/base";
 
-// Slate 3.1.1
+// Slate 3.2.0
 // Bootswatch
 // -----------------------------------------------------
 
@@ -24,6 +24,10 @@
 
   &-inverse {
     .btn-shadow(@navbar-inverse-bg);
+
+    .badge {
+      background-color: @navbar-inverse-link-active-bg;
+    }
   }
 
   &-nav > li > a {
@@ -177,9 +181,15 @@ h1, h2, h3, h4, h5, h6 {
 
 // Forms ======================================================================
 
+input,
+textarea {
+  color: @input-color;
+}
+
 .has-warning {
   .help-block,
-  .control-label {
+  .control-label,
+  .form-control-feedback {
     color: @brand-warning;
   }
 
@@ -187,11 +197,17 @@ h1, h2, h3, h4, h5, h6 {
   .form-control:focus {
     border-color: @brand-warning;
   }
+
+  .input-group-addon {
+    background-color: @body-bg;
+    border: none;
+  }
 }
 
 .has-error {
   .help-block,
-  .control-label {
+  .control-label,
+  .form-control-feedback {
     color: @brand-danger;
   }
 
@@ -199,17 +215,28 @@ h1, h2, h3, h4, h5, h6 {
   .form-control:focus {
     border-color: @brand-danger;
   }
+
+  .input-group-addon {
+    background-color: @body-bg;
+    border: none;
+  }
 }
 
 .has-success {
   .help-block,
-  .control-label {
+  .control-label,
+  .form-control-feedback {
     color: @brand-success;
   }
 
   .form-control,
   .form-control:focus {
     border-color: @brand-success;
+  }
+
+  .input-group-addon {
+    background-color: @body-bg;
+    border: none;
   }
 }
 
@@ -317,18 +344,25 @@ legend {
     color: #fff;
     text-decoration: underline;
   }
+
+  .close {
+    color: @close-color;
+    text-decoration: none;
+  }
 }
 
 // Progress bars ==============================================================
 
 // Containers =================================================================
 
-.jumbotron {
-  border: 1px solid rgba(0, 0, 0, 0.6);
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: @thumbnail-border;
 }
 
-.list-group-item {
-  background-color: lighten(@body-bg, 5%);
+.jumbotron {
+  border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 .panel-primary,

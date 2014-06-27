@@ -1,6 +1,6 @@
-@import "flatly/base";
+@import "darkly/base";
 
-// Flatly 3.2.0
+// Darkly 3.2.0
 // Bootswatch
 // -----------------------------------------------------
 
@@ -30,6 +30,16 @@
   &-brand {
     padding: 18.5px 15px 20.5px;
   }
+
+  &-form {
+    .form-control {
+      background-color: white;
+
+      &:focus {
+        border-color: white;
+      }
+    }
+  }
 }
 
 // Buttons ====================================================================
@@ -46,7 +56,7 @@
 
 .text-primary,
 .text-primary:hover {
-  color: @brand-primary;
+  color: lighten(@brand-primary, 10%);
 }
 
 .text-success,
@@ -110,9 +120,15 @@ table,
 
 // Forms ======================================================================
 
+input,
+textarea {
+  color: @input-color;
+}
+
 .form-control,
-input, {
-  border-width: 2px;
+input,
+textarea {
+  border: none;
   .box-shadow(none);
 
   &:focus {
@@ -133,7 +149,7 @@ input, {
 
   .form-control,
   .form-control:focus {
-    border: 2px solid @brand-warning;
+    .box-shadow(none);
   }
 
   .input-group-addon {
@@ -154,7 +170,7 @@ input, {
 
   .form-control,
   .form-control:focus {
-    border: 2px solid @brand-danger;
+    .box-shadow(none);
   }
 
   .input-group-addon {
@@ -175,12 +191,16 @@ input, {
 
   .form-control,
   .form-control:focus {
-    border: 2px solid @brand-success;
+    .box-shadow(none);
   }
 
   .input-group-addon {
     border-color: @brand-success;
   }
+}
+
+.input-group-addon {
+  color: @text-color;
 }
 
 // Navs =======================================================================
@@ -189,8 +209,13 @@ input, {
   .open > a,
   .open > a:hover,
   .open > a:focus {
-    border-color: transparent;
+    border-color: @nav-tabs-border-color;
   }
+}
+
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  color: #fff;
 }
 
 .pager {
@@ -209,6 +234,10 @@ input, {
   }
 }
 
+.breadcrumb a {
+  color: #fff;
+}
+
 // Indicators =================================================================
 
 .alert {
@@ -221,18 +250,6 @@ input, {
 
   .close {
     text-decoration: none;
-  }
-}
-
-.close {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.4;
-
-  &:hover,
-  &:focus {
-    color: #fff;
-    opacity: 1;
   }
 }
 
@@ -251,4 +268,13 @@ input, {
 
 .well {
   .box-shadow(none);
+}
+
+.popover,
+.modal {
+  color: @text-color;
+}
+
+.panel-default > .panel-heading {
+  background-color: @panel-footer-bg;
 }

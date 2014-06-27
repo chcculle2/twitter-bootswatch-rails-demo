@@ -1,6 +1,6 @@
 @import "readable/base";
 
-// Readable 3.1.1
+// Readable 3.2.0
 // Bootswatch
 // -----------------------------------------------------
 
@@ -37,6 +37,10 @@
 
   &-brand {
     margin-top: 6px;
+  }
+
+  &-form {
+    margin-top: 12px;
   }
 }
 
@@ -106,6 +110,23 @@ legend {
     color: @alert-success-text;
     text-decoration: underline;
   }
+
+  .close {
+    text-decoration: none;
+  }
+}
+
+
+.close {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.4;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    opacity: 1;
+  }
 }
 
 .label {
@@ -120,6 +141,8 @@ legend {
 }
 
 .badge {
+  padding: 1px 7px 5px;
+  vertical-align: 2px;
   font-family: @headings-font-family;
   font-weight: normal;
 }
