@@ -1,4 +1,4 @@
-// Amelia
+// Paper
 // Bootswatch
 // loader.js
 

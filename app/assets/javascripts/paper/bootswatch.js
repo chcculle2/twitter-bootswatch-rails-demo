@@ -1,3 +1,3 @@
-// Amelia
+// Paper
 // Bootswatch
 // bootswatch.js
